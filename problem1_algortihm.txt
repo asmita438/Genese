@@ -1,0 +1,14 @@
+Algorithm to find largest prime factor of a given number:
+
+STEP 1: START
+STEP 2: Define a function which takes the number(n) as a parameter
+STEP 3: Initialize variables prime_factor = 1 & i = 2
+STEP 4: Check while (i<=n/i):
+            check if n%i == 0;
+            if true goto step 5, if false go to step 6
+STEP 5: prime_factor = i, n = n/i
+STEP 6: increase i; i=i+1
+STEP 7: if value of prime_factor < n then assign prime_factor =n
+STEP 8: Return value of prime_factor
+STEP 9: Print the result by calling the function with the number as parameter
+STEP 10: END
